@@ -3,9 +3,15 @@
 <package format="3">
   <name>turtle_regulation</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="vegeta@todo.todo">vegeta</maintainer>
+  <description>A turtle regulation package for ROS2</description>
+  <maintainer email="suhaylnawool5@gmail.com">suhayl</maintainer>
   <license>TODO: License declaration</license>
+
+  <depend>rclpy</depend>
+  <depend>turtlesim</depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>turtle_interfaces</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
